@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import HtmlCheatSheet from "./pages/HtmlCheatSheet"
+import HtmlCheatsheet from "./pages/HtmlCheatSheet"
 import CssCheatsheet from "./pages/CssCheatsheet"
 import JavascriptCheatsheet from "./pages/JavascriptCheatsheet"
 import JqueryCheatsheet from "./pages/JqueryCheatsheet"
@@ -11,8 +11,8 @@ const App = () => {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path='/' element={<HtmlCheatSheet />} />
-          <Route path='/html-cheatsheet' element={<HtmlCheatSheet />} />
+          <Route path='/' element={<HtmlCheatsheet />} />
+          <Route path='/html-cheatsheet' element={<HtmlCheatsheet />} />
           <Route path='/css-cheatsheet' element={<CssCheatsheet />} />
           <Route path='/javascript-cheatsheet' element={<JavascriptCheatsheet />} />
           <Route path='/jquery-cheatsheet' element={<JqueryCheatsheet />} />
