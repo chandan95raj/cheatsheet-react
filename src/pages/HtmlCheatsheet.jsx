@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Spin } from 'antd';
-const HtmlCheatsheets = () => {
+const HtmlCheatsheet = () => {
   const [loading, setLoading] = useState(true);
 
   return (
@@ -36,4 +36,4 @@ const HtmlCheatsheets = () => {
   );
 }
 
-export default HtmlCheatsheets;
+export default HtmlCheatsheet;
