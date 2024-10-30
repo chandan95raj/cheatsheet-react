@@ -26,7 +26,7 @@ const Topbar = () => {
                   sx={location.pathname === '/' || location.pathname === '/html-cheatsheet' ? { px: 1, bgcolor: 'white', color: '#000' } : { px: 1 }}
                 >
                   <Stack direction='row' spacing={1} justifyContent='center' alignItems='center'>
-                    <img width="30" height="30" src="/public/html.svg" alt="html" />
+                    <img width="30" height="30" src="./public/html.svg" alt="html" />
                     <Typography>
                       Html
                     </Typography>
@@ -43,7 +43,7 @@ const Topbar = () => {
                   sx={location.pathname === '/css-cheatsheet' ? { px: 1, bgcolor: 'white', color: '#000' } : { px: 1 }}
                 >
                   <Stack direction='row' spacing={1} justifyContent='center' alignItems='center'>
-                    <img width="30" height="30" src="/public/css.svg" alt="css" />
+                    <img width="30" height="30" src="./public/css.svg" alt="css" />
                     <Typography>
                       Css
                     </Typography>
@@ -60,7 +60,7 @@ const Topbar = () => {
                   sx={location.pathname === '/javascript-cheatsheet' ? { px: 1, bgcolor: 'white', color: '#000' } : { px: 1 }}
                 >
                   <Stack direction='row' spacing={1} justifyContent='center' alignItems='center'>
-                    <img width="30" height="30" src="/public/javascript.svg" alt="javascript" />
+                    <img width="30" height="30" src="./public/javascript.svg" alt="javascript" />
                     <Typography>
                       Javascript
                     </Typography>
@@ -77,7 +77,7 @@ const Topbar = () => {
                   sx={location.pathname === '/jquery-cheatsheet' ? { px: 1, bgcolor: 'white', color: '#000' } : { px: 1 }}
                 >
                   <Stack direction='row' spacing={1} justifyContent='center' alignItems='center'>
-                    <img width="30" height="30" src="/public/jquery.svg" alt="jquery" />
+                    <img width="30" height="30" src="./public/jquery.svg" alt="jquery" />
                     <Typography>
                       JQuery
                     </Typography>
@@ -94,7 +94,7 @@ const Topbar = () => {
                   sx={location.pathname === '/bootstrap-cheatsheet' ? { px: 1, bgcolor: 'white', color: '#000' } : { px: 1 }}
                 >
                   <Stack direction='row' spacing={1} justifyContent='center' alignItems='center'>
-                    <img width="30" height="30" src="/public/bootstrap.svg" alt="bootstrap" />
+                    <img width="30" height="30" src="./public/bootstrap.svg" alt="bootstrap" />
                     <Typography>
                       Bootstrap
                     </Typography>
