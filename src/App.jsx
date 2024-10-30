@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import HtmlCheatSheet from "./pages/HtmlCheatSheet"
-import CssCheatsheet from "./pages/CssCheatsheet"
-import JavascriptCheatsheet from "./pages/JavascriptCheatsheet"
-import JqueryCheatsheet from "./pages/JqueryCheatsheet"
-import BootstrapCheatsheet from "./pages/BootstrapCheatsheet"
+import CssCheatsheet from "./pages/CssCheatsheet.jsx"
+import HtmlCheatsheets from "./pages/HtmlCheatsheets.jsx"
+import JavascriptCheatsheet from "./pages/JavascriptCheatsheet.jsx"
+import JqueryCheatsheet from "./pages/JqueryCheatsheet.jsx"
+import BootstrapCheatsheet from "./pages/BootstrapCheatsheet.jsx"
 import Layout from "./shared/Layout"
 
 const App = () => {
@@ -11,8 +11,7 @@ const App = () => {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path='/' element={<HtmlCheatSheet />} />
-          <Route path='/html-cheatsheet' element={<HtmlCheatSheet />} />
+          <Route path='/' element={<HtmlCheatsheets />} />
           <Route path='/css-cheatsheet' element={<CssCheatsheet />} />
           <Route path='/javascript-cheatsheet' element={<JavascriptCheatsheet />} />
           <Route path='/jquery-cheatsheet' element={<JqueryCheatsheet />} />
