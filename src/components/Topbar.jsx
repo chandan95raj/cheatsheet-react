@@ -18,7 +18,7 @@ const Topbar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link>
-              <Link to='/html-cheatsheet'>
+              <Link to='/'>
                 <Button
                   variant="outlined"
                   color="secondary"
